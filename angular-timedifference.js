@@ -1,5 +1,3 @@
-'use strict';
-
 /*
  * Angular Time Difference
  * Calculate the hh mm and ss between two times
@@ -13,7 +11,6 @@ angular.module('angular-timediff', []).
         function () {
         return {
             restrict: 'E',
-            replace: true,
             template:
                 '<div id="iln-time-diff">'+
                 '<span id="iln-time-diff-hour">{{ hour }}</span>'+
